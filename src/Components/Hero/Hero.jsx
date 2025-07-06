@@ -8,7 +8,8 @@ export const Hero = () => {
     <div id='home' className='hero'>
       <img src={profile_img} alt="profile" />
       <h1>
-        <span>I'm Ramvarsha,</span> a frontend developer and Java coder who loves clean and creative web design.
+        <span>I'm Ramvarsha,</span> a Fullstack developer and Java programmer who is passionate about software development.
+
       </h1>
       <p>Crafting seamless digital experiences where clean code meets captivating design.</p>
 
@@ -19,9 +20,10 @@ export const Hero = () => {
           </AnchorLink>
         </div>
 
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/resume.pdf" download="Ramvarsha_Resume.pdf">
           <button className="hero-resume">My Resume</button>
         </a>
+
       </div>
     </div>
   );

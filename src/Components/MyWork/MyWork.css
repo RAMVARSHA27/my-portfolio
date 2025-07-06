@@ -153,3 +153,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .mywork {
+    margin: 50px 100px;
+  }
+  .mywork-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}

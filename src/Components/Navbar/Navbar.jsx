@@ -23,7 +23,6 @@ export const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <h2 className='logo'>RAMVARSHA R</h2>
         <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
         <ul className="nav-menu" ref={menuRef}>
           <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close' />
@@ -32,7 +31,6 @@ export const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Projects</p></AnchorLink>{menu==="work"? <img src={underline} alt="" />:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline} alt="" />:<></>}</li>
         </ul>
-        <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
     </div>
   )
 }

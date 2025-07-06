@@ -60,11 +60,11 @@ export const Contact = () => {
               <p>ramvarsha2710@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="phone" />
+              <img src={call_icon} alt="phone" />
               <p>+91 63811 95644</p>
             </div>
             <div className="contact-detail">
-              <img src={call_icon} alt="location" />
+              <img src={location_icon} alt="location" />
               <p>Dharapuram, Tamil Nadu</p>
             </div>
           </div>

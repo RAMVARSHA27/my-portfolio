@@ -103,3 +103,12 @@
         margin-bottom: 50px;
     }
 }
+@media (max-width: 1024px) {
+  .footer {
+    margin: 40px 100px;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

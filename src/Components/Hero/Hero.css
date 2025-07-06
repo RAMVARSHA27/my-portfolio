@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
     padding-top: 20px;
 }
 .hero img {
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -17,7 +17,7 @@
 .hero h1{
     text-align: center;
     width: 65%;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 450;
 }
 .hero h1 span{
@@ -27,9 +27,9 @@
     -webkit-text-fill-color: transparent;
 }
 .hero p{
-    width: 50%;
+    width: 45%;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 40px;
 }
 .hero-action{
@@ -93,4 +93,14 @@
         padding: 10px 30px;
         border-radius: 40px;
     }
+}
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 38px;
+    width: 80%;
+  }
+  .hero p {
+    width: 70%;
+    font-size: 20px;
+  }
 }

@@ -8,9 +8,11 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap:150px;
     font-size: 20px;
     cursor: pointer;
+    margin-left: 320px;
+    padding: 0;
 }
 .nav-connect{
     padding: 15px 30px;
@@ -78,7 +80,7 @@
 }
 
 .nav-menu a:hover {
-  color: #bb69a9; /* Optional: light purple on hover */
+  color: #bb69a9; 
 }
 .nav-mob-close{
     display: none;
@@ -126,4 +128,13 @@
         flex-direction: row;
         gap: 20px;
     }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    margin: 20px 60px;
+  }
+  .nav-connect {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
 }
