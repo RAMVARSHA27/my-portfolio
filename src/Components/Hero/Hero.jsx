@@ -20,9 +20,10 @@ export const Hero = () => {
           </AnchorLink>
         </div>
 
-        <a href="/resume.pdf" download="Ramvarsha_Resume.pdf">
+        <a href="/my-portfolio/resume.pdf" download="Ramvarsha_Resume.pdf">
           <button className="hero-resume">My Resume</button>
         </a>
+
 
       </div>
     </div>

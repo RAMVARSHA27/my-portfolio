@@ -1,48 +1,48 @@
 .footer {
-    padding: 40px 40px;
+    padding: 2.5rem 2.5rem;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 1.5625rem;
 }
 
 .footer-top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 0.9375rem;
 }
 
 .footer-top-left {
     text-align: left;
-    padding-left: 35px;
+    padding-left: 2.1875rem;
 }
 
 .footer-top-left h2 {
     font-weight: 500;
-    font-size: 27px;
+    font-size: 1.6875rem;
     color: #fff;
 }
 
 .footer-top-left p {
-    font-size: 18px;
-    max-width: 500px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    max-width: 31.25rem;
+    line-height: 1.75rem;
     color: #f0f0f0;
 }
 
 /* Full-width horizontal line */
 hr {
     width: 100%;
-    margin: 10px 0;
+    margin: 0.625rem 0;
     border: none;
-    height: 1px;
+    height: 0.0625rem;
     background-color: #888;
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 .footer-bottom {
-    font-size: 16px;
-    padding-left: 35px;
+    font-size: 1rem;
+    padding-left: 2.1875rem;
     color: #f0f0f0;
 }
 
@@ -52,21 +52,21 @@ hr {
 }
 
 /* ---------- Responsive Tweaks ---------- */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .footer {
-        padding: 40px 20px;
+        padding: 2.5rem 1.25rem;
     }
 
     .footer-top-left h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .footer-top-left p {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
     }
 
     .footer-bottom {
-        font-size: 13px;
+        font-size: 0.8125rem;
     }
 }

@@ -3,28 +3,28 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 40px;
-    padding-top: 200px;
-    margin-top: -150px;
-    padding-left: 20px;
-    padding-right: 20px;
+    gap: 2.5rem; /* 40px */
+    padding-top: 12.5rem; /* 200px */
+    margin-top: -9.375rem; /* -150px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem;
     box-sizing: border-box;
     text-align: center;
 }
 
 .hero img {
-    width: 270px;
-    height: 270px;
+    width: 16.875rem; /* 270px */
+    height: 16.875rem;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 4px solid #ffffff10;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 0.25rem solid #ffffff10;
+    box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
     width: 70%;
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px */
     font-weight: 450;
     margin: 0;
     line-height: 1.4;
@@ -39,8 +39,8 @@
 
 .hero p {
     width: 70%;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 1.375rem; /* 22px */
+    line-height: 2.25rem; /* 36px */
     margin: 0;
 }
 
@@ -49,15 +49,15 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 25px;
-    font-size: 24px;
+    gap: 1.5625rem; /* 25px */
+    font-size: 1.5rem; /* 24px */
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem; /* 50px */
 }
 
 .hero-connect {
-    padding: 15px 25px;
-    border-radius: 50px;
+    padding: 0.9375rem 1.5625rem; /* 15px 25px */
+    border-radius: 3.125rem; /* 50px */
     background: linear-gradient(#bb69a9 102.06%);
     cursor: pointer;
     color: white;
@@ -65,74 +65,74 @@
 }
 
 .hero-resume {
-    padding: 15px 25px;
-    border-radius: 50px;
+    padding: 0.9375rem 1.5625rem;
+    border-radius: 3.125rem;
     background: linear-gradient(#bb69a9 102.06%);
     cursor: pointer;
     color: white;
     border: none;
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     transition: 0.3s;
 }
 
 .hero-connect:hover,
 .hero-resume:hover {
-    border: 2px solid white;
+    border: 0.125rem solid white; /* 2px */
 }
 
 /* Small screen styles */
-@media (max-width: 768px) {
-    .hero{
-        margin-top: -180px;
+@media (max-width: 48rem) { /* 768px */
+    .hero {
+        margin-top: -11.25rem; /* -180px */
     }
     .hero img {
-        margin-bottom: -20px;
-        width: 250px;
-        height: 250px;
+        margin-bottom: -1.25rem; /* -20px */
+        width: 15.625rem; /* 250px */
+        height: 15.625rem;
     }
 
     .hero h1 {
-        margin-top: 30px;
+        margin-top: 1.875rem; /* 30px */
         width: 90%;
-        font-size: 30px;
+        font-size: 1.875rem; /* 30px */
     }
 
     .hero p {
         width: 85%;
-        font-size: 18px;
-        line-height: 30px;
-        margin: 10px 0;
+        font-size: 1.125rem; /* 18px */
+        line-height: 1.875rem; /* 30px */
+        margin: 0.625rem 0; /* 10px 0 */
     }
 
     .hero-action {
-        gap: 16px;
-        font-size: 18px;
+        gap: 1rem; /* 16px */
+        font-size: 1.125rem; /* 18px */
     }
 
     .hero-connect,
     .hero-resume {
-        padding: 10px 20px;
-        border-radius: 40px;
-        font-size: 18px;
+        padding: 0.625rem 1.25rem; /* 10px 20px */
+        border-radius: 2.5rem; /* 40px */
+        font-size: 1.125rem;
     }
 }
 
-/* Tablet-specific refinements */
-@media (max-width: 1024px) {
+/* Tablet refinements */
+@media (max-width: 64rem) { /* 1024px */
     .hero h1 {
-        font-size: 36px;
+        font-size: 2.25rem; /* 36px */
         width: 85%;
     }
 
     .hero p {
         width: 80%;
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
     }
 }
 
-/* Extra small screen (optional) */
-@media (max-width: 480px) {
+/* Extra small screen */
+@media (max-width: 30rem) { /* 480px */
     .hero h1 {
-        font-size: 26px;
+        font-size: 1.625rem; /* 26px */
     }
 }
