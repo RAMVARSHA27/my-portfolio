@@ -1,141 +1,183 @@
 .mywork {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin: 80px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 100px 170px;
 }
 
 .mywork-title {
-    position: relative;
+  position: relative;
 }
 
 .mywork-title h1 {
-    padding: 0px 30px;
-    font-size: 55px;
-    font-weight: 500;
+  padding: 0px 30px;
+  font-size: 55px;
+  font-weight: 500;
 }
 
 .mywork-title img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
-/* ⬇️ Increased card width by changing minmax and reduced gap slightly */
 .mywork-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    gap: 50px;
-    margin-bottom: 80px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 50px;
+  margin-bottom: 80px;
+  width: 100%;
 }
 
-/* ⬇️ Reduced min-height for more compact layout */
 .mywork-format {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 330px;
-    padding: 25px;
-    border-radius: 10px;
-    border: 2px solid white;
-    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 330px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .mywork-top {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .mywork-format h3 {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .mywork-format h2 {
-    font-size: 34px;
-    font-weight: 650;
-    background: linear-gradient(#bb69a9 102.06%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  font-weight: 650;
+  background: linear-gradient(#bb69a9 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .mywork-format p {
-    color: #d4d4d4;
-    font-size: 20px;
-    line-height: 32px;
-    max-width: 340px;
+  color: #d4d4d4;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 340px;
 }
 
 .mywork-readmore {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .mywork-format:hover {
-    border: 2px solid #ff00ff;
-    background: linear-gradient(135deg, #ba458f, #978375);
-    transform: translateY(-10px) scale(1.03);
-    box-shadow: 0 12px 24px rgba(255, 0, 255, 0.3);
-    transition: all 0.4s ease-in-out;
-    color: rgb(8, 8, 8);
+  border: 2px solid #ff00ff;
+  background: linear-gradient(135deg, #ba458f, #978375);
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(255, 0, 255, 0.3);
+  color: rgb(8, 8, 8);
 }
 
 .mywork-format:hover h2 {
-    background: none;
-    -webkit-text-fill-color: rgb(78, 3, 55);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  background: none;
+  -webkit-text-fill-color: rgb(78, 3, 55);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .mywork-format:hover p,
 .mywork-format:hover h3 {
-    text-shadow: 0 0 6px rgba(63, 53, 53, 0.4);
+  text-shadow: 0 0 6px rgba(63, 53, 53, 0.4);
 }
 
 .mywork-format:hover .mywork-readmore p {
-    color: black;
+  color: black;
 }
 
 .mywork-format:hover .mywork-readmore img {
-    filter: brightness(200%);
-    transform: translateX(5px);
-    transition: all 0.3s ease-in-out;
+  filter: brightness(200%);
+  transform: translateX(5px);
+  transition: all 0.3s ease-in-out;
 }
-@media (max-width: 768px) {
+
+/* 🔽 Tablet Devices: <1024px */
+@media (max-width: 1024px) {
   .mywork {
-    align-items: center;
+    margin: 60px 30px;
     gap: 40px;
-    margin: 30px 20px;
   }
 
   .mywork-title h1 {
+    font-size: 42px;
     padding: 0;
-    font-size: 36px;
+    text-align: center;
   }
 
   .mywork-title img {
-    width: 100px;
-    margin-right: -10px;
+    width: 90px;
+    right: 0;
   }
 
   .mywork-container {
-    grid-template-columns: 1fr 1fr; /* ⬅️ Keep two columns */
-    gap: 20px; /* ⬅️ Slightly reduced for mobile */
-    overflow-x: hidden;
-    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 
   .mywork-format {
+    padding: 20px;
+    min-height: 280px;
+  }
+
+  .mywork-format h2 {
+    font-size: 26px;
+  }
+
+  .mywork-format p {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+  }
+
+  .mywork-readmore img {
+    width: 20px;
+  }
+
+  .navbar-menu {
+    display: none !important;
+  }
+}
+
+/* 🔽 Mobile Devices: <768px */
+@media (max-width: 768px) {
+  .mywork {
+    margin: 40px 20px;
+    gap: 30px;
+  }
+
+  .mywork-title h1 {
+    font-size: 34px;
+    padding: 0;
+  }
+
+  .mywork-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .mywork-format {
+    padding: 16px;
     min-height: 240px;
-    padding: 18px;
+  }
+
+  .mywork-format h3 {
+    font-size: 18px;
   }
 
   .mywork-format h2 {
@@ -145,20 +187,13 @@
   .mywork-format p {
     font-size: 14px;
     line-height: 24px;
-    max-width: 100%;
+  }
+
+  .mywork-readmore {
+    gap: 20px;
   }
 
   .mywork-readmore img {
     width: 18px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .mywork {
-    margin: 50px 100px;
-  }
-  .mywork-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
   }
 }
