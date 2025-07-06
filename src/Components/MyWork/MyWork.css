@@ -13,7 +13,7 @@
 
 .mywork-title h1 {
   padding: 0px 30px;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 500;
 }
 
@@ -22,6 +22,8 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  max-width: 120px;
+  height: auto;
 }
 
 .mywork-container {
@@ -29,35 +31,36 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 50px;
   margin-bottom: 80px;
-  width: 100%;
+  width: 110%;
 }
 
 .mywork-format {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 330px;
+  min-height: 350px;
   padding: 25px;
   border-radius: 10px;
   border: 2px solid white;
   transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+  margin-right: -30px;
 }
 
 .mywork-top {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .mywork-format h3 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 21px;
+  font-weight: 450;
 }
 
 .mywork-format h2 {
-  font-size: 34px;
-  font-weight: 650;
+  font-size: 30px;
+  font-weight: 600;
   background: linear-gradient(#bb69a9 102.06%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -66,7 +69,7 @@
 
 .mywork-format p {
   color: #d4d4d4;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   max-width: 340px;
 }
