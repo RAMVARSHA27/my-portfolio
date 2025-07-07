@@ -9,7 +9,7 @@
 
 /* Ensure consistent font scaling and zoom */
 html {
-  font-size: 13px;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
