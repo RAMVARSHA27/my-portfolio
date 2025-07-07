@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.0rem; /* 30px */
-  margin: 2.5rem auto; /* 40px */
+  gap: 3.8rem; /* 30px */
+  margin: 2.2rem auto; /* 40px */
   padding: 0 3.125rem; /* 50px */
   max-width: 81.25rem; /* 1300px */
   padding-top: 1.875rem; /* 30px */
@@ -31,10 +31,11 @@
 
 .about-section {
   display: flex;
-  gap: 7.7rem; /* 120px */
+  gap: 9.2rem; /* 120px */
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-right: 50px;
 }
 
 .about-left img {
@@ -54,7 +55,7 @@
 .about-right {
   display: flex;
   flex-direction: column;
-  gap: 2.8rem; /* 40px */
+  gap: 3.3rem; /* 40px */
   align-items: center;
   text-align: center;
 }
@@ -70,7 +71,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem; /* 10px */
+  gap: 1.4rem; /* 10px */
   width: 100%;
 }
 
@@ -78,7 +79,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.7rem; /* 40px */
+  gap: 3.0rem; /* 40px */
   width: 100%;
   max-width: 43.75rem; /* 700px */
   transition: 0.3s;
@@ -97,7 +98,7 @@
 .skill-bar-wrapper {
   display: flex;
   align-items: center;
-  gap: 1.05rem; /* 15px */
+  gap: 1.3rem; /* 15px */
   flex: 1;
   max-width: 37.5rem; /* 600px */
 }
@@ -121,10 +122,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2.1rem;
   padding-left: 2.5rem; /* 40px */
   padding-right: 2.5rem;
   margin-bottom: 2.5rem; /* 40px */
-  gap: 5.8rem; /* 90px */
+  gap: 6.5rem; /* 90px */
   flex-wrap: wrap;
 }
 
@@ -136,7 +138,7 @@
 }
 
 .about-achievement h1 {
-  font-size: 2.375rem; /* 38px */
+  font-size: 2.8rem; /* 38px */
   font-weight: 600;
   background: linear-gradient(#bb69a9 102.06%);
   background-clip: text;
