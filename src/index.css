@@ -16,9 +16,9 @@ html {
 
 body {
   min-height: 100vh;
+  max-width: 100vw;
   background-color: #161513;
   color: #ffffff;
   overflow-x: hidden;
   font-family: 'Outfit', sans-serif;
-  zoom: 1; /* ✅ Forces consistent rendering scale */
 }
