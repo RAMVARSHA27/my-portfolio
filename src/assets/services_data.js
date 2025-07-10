@@ -16,8 +16,8 @@ const Services_Data = [
     },
     {
         s_no:"04",
-        s_name:"HousePricePrediction",
-        s_desc:"The Boston House Price Prediction project uses Machine Learning to estimate housing prices based on features like crime rate, number of rooms, and location. It demonstrates regression techniques in Python using datasets like the Boston Housing dataset."
+        s_name:"Weavica Textiles",
+        s_desc:"A MERN stack textile project where clients can order fabrics by adding them to a cart, and admins can add or update fabrics and manage delivery status."
     }
 ]
  
